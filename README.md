@@ -25,6 +25,16 @@ The dataset contains job posting information including salary, experience, quali
 
 ---
 
+## Tools & Technologies
+
+- Tableau Public
+- Tableau Desktop
+- Data Visualization
+- Business Intelligence
+- Dashboard Analytics
+
+---
+
 ## Dashboard Preview
 
 ![Dashboard Overview](images/dashboard.png)
@@ -367,16 +377,6 @@ job_analytics/
 │
 └── README.md
 ```
-
----
-
-## Tools & Technologies
-
-- Tableau Public
-- Tableau Desktop
-- Data Visualization
-- Business Intelligence
-- Dashboard Analytics
 
 ---
 
