@@ -51,18 +51,7 @@ The dataset contains job posting information including salary, experience, quali
 
 ---
 
-## Tools & Technologies
-
-- Tableau Public
-- Microsoft Excel / CSV Dataset
-- Calculated Fields
-- Interactive Filters
-- Dashboard Actions
-- Data Visualization
-
----
-
-# Main Dashboard
+## Main Dashboard
 
 The primary dashboard provides a comprehensive overview of job posting data through multiple analytical views.
 
