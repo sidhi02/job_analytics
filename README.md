@@ -63,7 +63,7 @@ The primary dashboard provides a comprehensive overview of job posting data thro
 
 ### Objective
 
-Analyze the relationship between candidate preference categories and internship opportunities.
+Analyze the relationship between candidate preferences and internship opportunities.
 
 ### Filters Applied
 
@@ -75,12 +75,13 @@ Analyze the relationship between candidate preference categories and internship 
 
 ![Task 1](images/task1.png)
 
-### Key Insights
+### Insights
 
-- Female preference postings recorded the highest count.
-- Male and Both preference categories showed similar distributions.
-- Internship opportunities remain balanced across all preference groups.
-- Results indicate broad accessibility across candidate categories.
+- Female preference jobs recorded the highest count (**21,412**).
+- Both preference category recorded (**21,282**) opportunities.
+- Male preference jobs recorded (**21,148**) opportunities.
+- Distribution is highly balanced across all preference categories.
+- Internship opportunities appear broadly accessible across preference groups.
 
 ### Tableau Concepts Used
 
@@ -111,11 +112,12 @@ Evaluate relationships between company size and organizations satisfying complex
 
 ![Task 2](images/task2.png)
 
-### Key Insights
+### Insights
 
-- Only a limited number of companies satisfied all conditions.
-- Larger organizations remained dominant within filtered results.
-- Complex filtering significantly narrowed the dataset while retaining meaningful records.
+- Stanley Black & Decker appears as the largest company under the applied filters.
+- Deutsche Post DHL Group also shows significant company size.
+- Only a few companies satisfy all filtering conditions.
+- Advanced filtering significantly narrows the dataset while maintaining meaningful results.
 
 ### Tableau Concepts Used
 
@@ -130,7 +132,7 @@ Evaluate relationships between company size and organizations satisfying complex
 
 ### Objective
 
-Analyze internship salary distribution using statistical visualization techniques.
+Analyze salary distribution for internship roles using statistical visualization techniques.
 
 ### Filters Applied
 
@@ -145,12 +147,12 @@ Analyze internship salary distribution using statistical visualization technique
 
 ![Task 3](images/task3.png)
 
-### Key Insights
+### Insights
 
-- Median salary falls around the mid-range of the distribution.
-- Most salaries remain concentrated within a narrow range.
-- Distribution appears relatively stable with limited outliers.
-- Statistical visualization helps identify salary consistency.
+- Median salary is approximately **$58K–$59K**.
+- Most internship salaries fall between **$55K and $63K**.
+- Salary distribution is relatively consistent.
+- No significant outliers are visible within the filtered dataset.
 
 ### Tableau Concepts Used
 
@@ -180,12 +182,12 @@ Compare job opportunities between India and Germany using selected qualification
 
 ![Task 4](images/task4.png)
 
-### Key Insights
+### Insights
 
-- Germany generated more qualifying records under the applied conditions.
-- Aerospace Engineer and Art Teacher roles appeared in filtered results.
-- Regional comparisons reveal differences in opportunity availability.
-- Qualification and experience requirements significantly influence job counts.
+- Germany generated valid postings after all conditions were applied.
+- Aerospace Engineer and Art Teacher positions met the filtering criteria.
+- Regional analysis helps identify country-specific job opportunities.
+- Qualification and experience requirements substantially reduce the dataset.
 
 ### Tableau Concepts Used
 
@@ -215,12 +217,12 @@ Identify top organizations through a hierarchical company visualization.
 
 ![Task 5](images/task5.png)
 
-### Key Insights
+### Insights
 
-- Strict filtering criteria reduced the available dataset considerably.
-- Only a small number of companies met all requirements.
-- Demonstrates implementation of advanced business logic.
-- Highlights the impact of multiple constraints on hiring analysis.
+- The filtering conditions are extremely restrictive.
+- Very few records satisfy all requirements simultaneously.
+- Demonstrates implementation of advanced business logic through calculated fields and filters.
+- Highlights the importance of balancing business rules with data availability.
 
 ### Tableau Concepts Used
 
@@ -250,12 +252,12 @@ Visualize job opportunities geographically across African countries using drilld
 
 ![Task 6](images/task6.png)
 
-### Key Insights
+### Insights
 
-- Geographic visualization enables regional opportunity analysis.
-- Drilldown functionality improves exploration of specific locations.
-- Qualification-based filtering supports targeted investigation.
-- Interactive mapping enhances decision-making and usability.
+- Geographic filtering enables targeted regional analysis.
+- Drilldown functionality allows users to explore exact job locations.
+- Multiple qualification categories can be analyzed simultaneously.
+- Strict filtering criteria result in highly specific opportunities.
 
 ### Tableau Concepts Used
 
