@@ -11,7 +11,7 @@ The dashboard enables users to explore job market trends, salary patterns, quali
 ## Project Access
 
 🔗 **Tableau Public Workbook:**  
-[ (https://public.tableau.com/views/JobAnalytics_17814643461240/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) ]
+[https://public.tableau.com/views/JobAnalytics_17814643461240/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
 
 ---
 
