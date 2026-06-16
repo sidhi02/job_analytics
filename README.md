@@ -13,6 +13,19 @@ The dashboard enables users to explore job market trends, salary patterns, quali
 🔗 **Access the Complete Tableau Workbook:**  
 [Job Analytics Dashboard & Internship Tasks](https://public.tableau.com/app/profile/sidhi.deshmukh/viz/JobAnalytics_17814643461240/Dashboard)
 
+---
+
+## Dataset
+
+**Job Analytics Dataset**
+
+📁 Dataset Link:  
+https://drive.google.com/drive/folders/1uujqbH61S9yY48lJzzIT4iBKUFef-NeQ?usp=sharing
+
+The dataset contains information related to job postings, salaries, qualifications, company details, work types, locations, and experience requirements used for dashboard development and analysis.
+
+---
+
 ## Dashboard Preview
 
 ![Dashboard Overview](images/dashboard.png)
@@ -25,8 +38,28 @@ The dashboard enables users to explore job market trends, salary patterns, quali
 - Explore salary distributions and hiring patterns.
 - Compare opportunities across countries and companies.
 - Apply advanced filtering and calculated field logic.
-- Create interactive visualizations for business decision-making.
-- Demonstrate practical Business Intelligence and Data Analytics skills using Tableau.
+- Develop interactive business intelligence dashboards.
+  
+---
+
+## Data Cleaning
+
+- Removed duplicate records to improve data accuracy.
+- Handled missing and null values in key fields.
+- Standardized data formats for consistency.
+- Converted date fields for time-based analysis.
+- Created calculated fields and applied task-specific filters.
+
+---
+
+## Tools & Technologies
+
+- Tableau Public
+- Microsoft Excel / CSV Dataset
+- Calculated Fields
+- Interactive Filters
+- Dashboard Actions
+- Data Visualization
 
 ---
 
@@ -328,19 +361,23 @@ The project demonstrates the ability to:
 # Repository Structure
 
 ```text
-Job-Analytics-Internship-Project/
+job_analytics/
 │
-├── README.md
+├── data_cleaning/
+│   └── data_clean.ipynb
+│
 ├── images/
 │   ├── dashboard.png
 │   ├── task1.png
 │   ├── task2.png
 │   ├── task3.png
 │   ├── task4.png
-│   ├── task5.png
+│   ├── task5.jpeg
 │   └── task6.png
 │
-└── Job_Analytics.twbx
+├── website/
+│
+└── README.md
 ```
 
 ---
