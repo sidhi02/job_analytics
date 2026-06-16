@@ -15,8 +15,7 @@ The dashboard enables users to explore job market trends, salary patterns, quali
 
 ## Dashboard Preview
 
-![Dashboard Overview](<img width="1265" height="690" alt="Screenshot 2026-06-17 at 2 07 07 AM" src="https://github.com/user-attachments/assets/5f70e96f-13b9-42df-bce0-ea51a2d31421" />
-)
+![Dashboard Overview](images/dashboard.png)
 
 ---
 
