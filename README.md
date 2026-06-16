@@ -22,6 +22,7 @@ The dashboard enables users to explore job market trends, salary patterns, quali
 📁 [Access Dataset](https://drive.google.com/drive/folders/1uujqbH61S9yY48lJzzIT4iBKUFef-NeQ?usp=sharing)
 
 The dataset contains job posting information including salary, experience, qualifications, company size, work type, and geographic details used for dashboard development and analysis.
+
 ---
 
 ## Dashboard Preview
