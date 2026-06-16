@@ -8,10 +8,10 @@ The dashboard enables users to explore job market trends, salary patterns, quali
 
 ---
 
-## Live Dashboard
+## Project Access
 
-🔗 **Tableau Public Dashboard:**  
-[Insert Tableau Public Link Here]
+🔗 **Tableau Public Workbook:**  
+[(https://public.tableau.com/views/JobAnalytics_17814643461240/Task1-PreferencevsWorkType?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)]
 
 ---
 
