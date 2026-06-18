@@ -11,27 +11,74 @@ The dashboard enables users to explore job market trends, hiring preferences, sa
 ## Project Access
 
 ### Live Project Website
-View the complete project portfolio and dashboard showcase here:
 
 🔗 https://jobxanalytics.netlify.app
 
 ### Tableau Public Dashboard
-Access the interactive Tableau dashboard here:
 
 🔗 https://public.tableau.com/shared/86KZQ2GX9?:display_count=n&:origin=viz_share_link
 
 ---
 
-## Project Highlights
+## Repository Structure
 
-- Interactive Tableau Dashboard
-- 6 Advanced Internship Analytics Tasks
-- Drilldown Geographic Analysis
-- Salary Distribution Analysis
-- Hiring Preference Analysis
-- Company Size & Recruitment Insights
-- Qualification-Based Job Analysis
-- Dynamic Filters & User Interaction
+```text
+job_analytics/
+│
+├── data_cleaning/
+│   └── data_clean.ipynb
+│
+├── images/
+│   ├── dashboard.png
+│   ├── task1.png
+│   ├── task2.png
+│   ├── task3.png
+│   ├── task4.png
+│   ├── task5.png
+│   └── task6.png
+│
+├── website/
+│   ├── index.html
+│   └── Job Analytics Internship Project.webloc
+│
+└── README.md
+```
+
+---
+
+## Dashboard Preview
+
+![Dashboard](images/dashboard.png)
+
+The dashboard combines all analytical views into a single interactive interface, allowing users to filter and explore job market trends, salary distributions, qualifications, company insights, and geographic hiring patterns.
+
+---
+
+## Task Visualizations
+
+### Task 1 – Preference vs Work Type
+
+![Task 1](images/task1.png)
+
+### Task 2 – Company Size vs Company Name
+
+![Task 2](images/task2.png)
+
+### Task 3 – Work Type Salary Distribution
+
+![Task 3](images/task3.png)
+
+### Task 4 – India vs Germany Job Comparison
+
+![Task 4](images/task4.png)
+
+### Task 5 – Top Companies Hiring
+
+![Task 5](images/task5.png)
+
+### Task 6 – Qualification Drilldown Map
+
+![Task 6](images/task6.png)
 
 ---
 
@@ -68,11 +115,13 @@ Access the interactive Tableau dashboard here:
 **Visualization:** Bar Chart
 
 #### Filters Applied
+
 - Work Type = Intern
 - Company Size < 50,000
 - Salary > $9,000
 
 #### Key Insights
+
 - Female-preferred internships recorded the highest number of postings (21,412).
 - Both-gender opportunities followed closely (21,282).
 - Male-preferred internships accounted for 21,148 postings.
@@ -86,6 +135,7 @@ Access the interactive Tableau dashboard here:
 **Visualization:** Scatter Plot
 
 #### Filters Applied
+
 - Job Title = Mechanical Engineer
 - Experience > 5 Years
 - Salary > $50,000
@@ -98,6 +148,7 @@ Access the interactive Tableau dashboard here:
 - Visible between 3 PM and 5 PM IST
 
 #### Key Insights
+
 - Stanley Black & Decker had the largest company size among the qualifying records.
 - Deutsche Post DHL Group ranked second in company size.
 - General Dynamics and Knight-Swift Transportation Holdings also met all filtering criteria.
@@ -111,6 +162,7 @@ Access the interactive Tableau dashboard here:
 **Visualization:** Box-and-Whisker Plot
 
 #### Filters Applied
+
 - Work Type = Intern
 - Latitude < 10
 - Company Size < 50,000
@@ -122,6 +174,7 @@ Access the interactive Tableau dashboard here:
 - Visible between 3 PM and 5 PM IST
 
 #### Key Insights
+
 - Internship salaries ranged approximately between $55,000 and $65,000.
 - The median salary was close to $60,000.
 - Most salaries were concentrated within a narrow range, indicating low variability.
@@ -135,6 +188,7 @@ Access the interactive Tableau dashboard here:
 **Visualization:** Stacked Bar Chart
 
 #### Filters Applied
+
 - Qualification = B.Tech
 - Work Type = Full-Time
 - Experience > 2 Years
@@ -148,6 +202,7 @@ Access the interactive Tableau dashboard here:
 - Location not empty
 
 #### Key Insights
+
 - Germany generated qualifying records under the selected conditions.
 - Aerospace Engineer and Art Teacher roles appeared in the filtered dataset.
 - No matching records were found for India after applying all filtering conditions.
@@ -160,6 +215,7 @@ Access the interactive Tableau dashboard here:
 **Visualization:** Tree Map
 
 #### Filters Applied
+
 - Role = Data Engineer
 - Job Title = Data Scientist
 - Non-Asian Countries
@@ -172,9 +228,13 @@ Access the interactive Tableau dashboard here:
 - Visible between 3 PM and 5 PM IST
 
 #### Data Constraint
-The task required the **Contact Person's name to end with a vowel**. This condition was implemented and added to the dashboard filter panel. However, selecting this filter results in no matching records within the dataset and the treemap becomes blank. Users can apply the filter from the dashboard panel to validate the requirement, but it is not enabled in the default view to preserve the visualization.
+
+The task required the **Contact Person's Name to end with a vowel**. This requirement was implemented as a calculated filter and added to the dashboard filter panel. However, when this filter is selected, no records remain in the dataset and the treemap becomes blank.
+
+To maintain a visible visualization, the filter is not enabled by default. Users can manually select the filter from the dashboard panel to validate the task requirement and observe the dataset limitation.
 
 #### Key Insights
+
 - DISH Network recorded the highest number of qualifying postings.
 - Gilead Sciences, Halliburton, and Iluka Resources also appeared in the results.
 - Only four companies satisfied the final filtering criteria.
@@ -188,6 +248,7 @@ The task required the **Contact Person's name to end with a vowel**. This condit
 **Visualization:** Interactive Drilldown Map
 
 #### Filters Applied
+
 - African Countries
 - Qualification = B.Tech, M.Tech, or PhD
 - Work Type = Full-Time
@@ -199,9 +260,13 @@ The task required the **Contact Person's name to end with a vowel**. This condit
 - Visible between 3 PM and 6 PM IST
 
 #### Data Constraint
-The task required the **Job Portal to be Indeed**. This condition was implemented and included in the dashboard filter panel. However, applying the Indeed filter together with all other task conditions results in no matching records being returned. Users can select the filter from the dashboard panel to verify the requirement, but it is not enabled in the default view so that the map visualization remains visible.
+
+The task required the **Job Portal to be Indeed**. This condition was implemented and included in the dashboard filter panel. However, selecting the Indeed filter together with all other task requirements produces no matching records in the dataset, causing the map visualization to become blank.
+
+To preserve the visualization, the filter is available within the dashboard panel but is not selected by default. Users may apply the filter themselves to verify the requirement and validate the dataset constraint.
 
 #### Key Insights
+
 - Qualifying job postings were distributed across multiple African regions.
 - Opportunities appeared across West, East, Central, and Southern Africa.
 - Large organizations showed demand for highly qualified professionals.
