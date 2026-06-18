@@ -282,7 +282,7 @@ This project demonstrates the practical application of Tableau for interactive d
 
 ## Author
 
-**Huh**  
+**Sidhi Deshmukh**  
 Data Analytics Intern | Tableau Developer
 
 This project was developed as part of the ElevanceSkills Data Analytics Internship Program and showcases advanced Tableau dashboarding, data visualization, filtering, drilldown mapping, and business intelligence techniques.
