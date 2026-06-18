@@ -278,8 +278,6 @@ This project demonstrates the practical application of Tableau for interactive d
 
 ---
 
----
-
 ## Author
 
 **Sidhi Deshmukh**  
