@@ -10,10 +10,9 @@ The dashboard enables users to explore job market trends, hiring preferences, sa
 
 ## Project Access
 
-| Resource | Link |
-|-----------|------|
-| Live Website | [Open Project Website](https://jobxanalytics.netlify.app) |
-| Tableau Dashboard | [View Interactive Dashboard](https://public.tableau.com/shared/86KZQ2GX9?:display_count=n&:origin=viz_share_link) |
+🔗 **Portfolio Website:** [Visit Website](https://jobxanalytics.netlify.app)
+
+🔗 **Tableau Dashboard:** [View Interactive Dashboard](https://public.tableau.com/shared/86KZQ2GX9?:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -276,5 +275,18 @@ Users can manually select the Indeed filter from the dashboard panel to validate
 ## Conclusion
 
 This project demonstrates the practical application of Tableau for interactive dashboard development, business intelligence reporting, geographic analysis, filtering techniques, and data-driven decision-making.
+
+---
+
+---
+
+## Author
+
+**Huh**  
+Data Analytics Intern | Tableau Developer
+
+This project was developed as part of the ElevanceSkills Data Analytics Internship Program and showcases advanced Tableau dashboarding, data visualization, filtering, drilldown mapping, and business intelligence techniques.
+
+---
 
 The implementation successfully completed all six internship tasks while documenting dataset constraints and providing meaningful analytical insights through interactive visualizations.
