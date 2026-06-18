@@ -2,401 +2,227 @@
 
 ## Overview
 
-This project was developed as part of the **ElevanceSkills Data Analytics Internship Program** using **Tableau Public**. The objective was to extend the original Job Analytics Dashboard created during training and implement six additional analytical tasks on the same dataset while applying advanced Tableau concepts and business intelligence techniques.
+This project was developed as part of the **ElevanceSkills Data Analytics Internship Program** using **Tableau Public**. The objective was to extend the original Job Analytics Dashboard created during training and implement six additional analytical tasks using advanced Tableau concepts such as calculated fields, filters, parameters, drilldowns, and interactive visualizations.
 
-The dashboard enables users to explore job market trends, salary patterns, qualification requirements, hiring preferences, company insights, and geographic distributions through interactive visualizations.
+The dashboard enables users to explore job market trends, hiring preferences, salary distributions, company insights, qualification requirements, and geographic job distributions through interactive analytics.
 
 ---
 
 ## Project Access
 
-🔗 **Access the Complete Tableau Workbook:**  
-[Job Analytics Dashboard & Internship Tasks](https://public.tableau.com/app/profile/sidhi.deshmukh/viz/JobAnalytics_17814643461240/Dashboard)
+### Live Project Website
+View the complete project portfolio and dashboard showcase here:
+
+🔗 https://jobxanalytics.netlify.app
+
+### Tableau Public Dashboard
+Access the interactive Tableau dashboard here:
+
+🔗 https://public.tableau.com/shared/86KZQ2GX9?:display_count=n&:origin=viz_share_link
 
 ---
 
-## Dataset
+## Project Highlights
 
-**Job Analytics Dataset**
-
-📁 [Access Dataset](https://drive.google.com/drive/folders/1uujqbH61S9yY48lJzzIT4iBKUFef-NeQ?usp=sharing)
-
-The dataset contains job posting information including salary, experience, qualifications, company size, work type, and geographic details used for dashboard development and analysis.
+- Interactive Tableau Dashboard
+- 6 Advanced Internship Analytics Tasks
+- Drilldown Geographic Analysis
+- Salary Distribution Analysis
+- Hiring Preference Analysis
+- Company Size & Recruitment Insights
+- Qualification-Based Job Analysis
+- Dynamic Filters & User Interaction
 
 ---
 
 ## Tools & Technologies
 
 - Tableau Public
-- Tableau Desktop
+- Microsoft Excel
+- Calculated Fields
+- Interactive Filters
+- Parameters
+- Geographic Mapping
+- Drilldown Functionality
+- Dashboard Design
+
+---
+
+## Skills Demonstrated
+
 - Data Visualization
+- Dashboard Design
+- Interactive Filtering
+- Calculated Fields
+- Geographic Analysis
+- Drilldown Mapping
 - Business Intelligence
-- Dashboard Analytics
+- Data Analysis
 
 ---
 
-## Dashboard Preview
+## Internship Tasks
 
-![Dashboard Overview](images/dashboard.png)
+### 1. Preference vs Work Type
 
----
+**Visualization:** Bar Chart
 
-## Project Objectives
-
-- Analyze job market trends across multiple regions.
-- Explore salary distributions and hiring patterns.
-- Compare opportunities across countries and companies.
-- Apply advanced filtering and calculated field logic.
-- Develop interactive business intelligence dashboards.
-  
----
-
-## Data Cleaning
-
-- Removed duplicate records to improve data accuracy.
-- Handled missing and null values in key fields.
-- Standardized data formats for consistency.
-- Converted date fields for time-based analysis.
-- Created calculated fields and applied task-specific filters.
-
----
-
-## Main Dashboard
-
-The primary dashboard provides a comprehensive overview of job posting data through multiple analytical views.
-
-### Key Features
-
-- Company Analysis
-- Country Distribution
-- Skills Analysis
-- Qualification Insights
-- Salary Analysis
-- Experience Distribution
-- Work Type Trends
-- Preference Analysis
-
-### Key Insights
-
-- Large organizations contribute significantly to overall job opportunities.
-- Technical and professional qualifications dominate the job market.
-- Salary levels vary considerably across industries and companies.
-- Work preferences are relatively balanced across opportunities.
-- Job postings are distributed across multiple countries and regions.
-
----
-
-# Internship Tasks
-
-## Task 1 — Preference vs Work Type Analysis
-
-### Objective
-
-Analyze the relationship between candidate preferences and internship opportunities.
-
-### Filters Applied
-
+#### Filters Applied
 - Work Type = Intern
 - Company Size < 50,000
 - Salary > $9,000
 
-### Visualization
-
-![Task 1](images/task1.png)
-
-### Insights
-
-- Female preference jobs recorded the highest count (**21,412**).
-- Both preference category recorded (**21,282**) opportunities.
-- Male preference jobs recorded (**21,148**) opportunities.
-- Distribution is highly balanced across all preference categories.
-- Internship opportunities appear broadly accessible across preference groups.
-
-### Tableau Concepts Used
-
-- Bar Chart
-- Sorting
-- Interactive Filters
-- Conditional Filtering
+#### Key Insights
+- Female-preferred internships recorded the highest number of postings (21,412).
+- Both-gender opportunities followed closely (21,282).
+- Male-preferred internships accounted for 21,148 postings.
+- The difference between categories was minimal, indicating a balanced distribution of hiring preferences.
+- Internship opportunities appeared relatively inclusive across all preference categories.
 
 ---
 
-## Task 2 — Company Size vs Company Analysis
+### 2. Company Size vs Company Name
 
-### Objective
+**Visualization:** Scatter Plot
 
-Evaluate relationships between company size and organizations satisfying complex business conditions.
-
-### Filters Applied
-
-- Mechanical Engineer roles only
-- Experience > 5 years
+#### Filters Applied
+- Job Title = Mechanical Engineer
+- Experience > 5 Years
 - Salary > $50,000
-- Full-Time or Part-Time positions
-- Asian countries only
-- Idealist job portal
-- Additional calculated field conditions
+- Work Type = Full-Time or Part-Time
+- Preference = Male
+- Company Size < 50,000
+- Asian Countries only (excluding countries starting with "I")
+- Job Portal = Idealist
+- Company Name contains at least two vowels
+- Visible between 3 PM and 5 PM IST
 
-### Visualization
-
-![Task 2](images/task2.png)
-
-### Insights
-
-- Stanley Black & Decker appears as the largest company under the applied filters.
-- Deutsche Post DHL Group also shows significant company size.
-- Only a few companies satisfy all filtering conditions.
-- Advanced filtering significantly narrows the dataset while maintaining meaningful results.
-
-### Tableau Concepts Used
-
-- Scatter Plot
-- Calculated Fields
-- String Functions
-- Time-Based Visibility Logic
+#### Key Insights
+- Stanley Black & Decker had the largest company size among the qualifying records.
+- Deutsche Post DHL Group ranked second in company size.
+- General Dynamics and Knight-Swift Transportation Holdings also met all filtering criteria.
+- Only four companies satisfied all business rules, highlighting the restrictive nature of the applied filters.
+- Hiring opportunities were concentrated among large established organizations.
 
 ---
 
-## Task 3 — Work Type Salary Distribution
+### 3. Work Type Salary Distribution
 
-### Objective
+**Visualization:** Box-and-Whisker Plot
 
-Analyze salary distribution for internship roles using statistical visualization techniques.
-
-### Filters Applied
-
-- Internship positions only
+#### Filters Applied
+- Work Type = Intern
 - Latitude < 10
 - Company Size < 50,000
 - Salary > $8,000
-- Posting Year between 2021–2023
-- Additional string and numerical conditions
+- Single-word Job Title with fewer than 10 characters
+- Experience is an even number
+- Posting Date between 2021 and 2023
+- Contact Person name contains the letter "e"
+- Visible between 3 PM and 5 PM IST
 
-### Visualization
-
-![Task 3](images/task3.png)
-
-### Insights
-
-- Median salary is approximately **$58K–$59K**.
-- Most internship salaries fall between **$55K and $63K**.
-- Salary distribution is relatively consistent.
-- No significant outliers are visible within the filtered dataset.
-
-### Tableau Concepts Used
-
-- Box-and-Whisker Plot
-- Statistical Analysis
-- Date Functions
-- String Operations
+#### Key Insights
+- Internship salaries ranged approximately between $55,000 and $65,000.
+- The median salary was close to $60,000.
+- Most salaries were concentrated within a narrow range, indicating low variability.
+- No significant salary outliers were observed.
+- Compensation appeared relatively standardized across qualifying internship postings.
 
 ---
 
-## Task 4 — India vs Germany Job Comparison
+### 4. India vs Germany Job Comparison
 
-### Objective
+**Visualization:** Stacked Bar Chart
 
-Compare job opportunities between India and Germany using selected qualification and experience criteria.
-
-### Filters Applied
-
+#### Filters Applied
 - Qualification = B.Tech
-- Full-Time positions
-- Experience > 2 years
+- Work Type = Full-Time
+- Experience > 2 Years
+- Job Titles:
+  - Data Scientist
+  - Aerospace Engineer
+  - Art Teacher
 - Salary > $10,000
-- Indeed job portal
-- Selected job roles
+- Job Portal = Indeed
+- Company Name length greater than 8 characters
+- Location not empty
 
-### Visualization
-
-![Task 4](images/task4.png)
-
-### Insights
-
-- Germany generated valid postings after all conditions were applied.
-- Aerospace Engineer and Art Teacher positions met the filtering criteria.
-- Regional analysis helps identify country-specific job opportunities.
-- Qualification and experience requirements substantially reduce the dataset.
-
-### Tableau Concepts Used
-
-- Stacked Bar Chart
-- Country Comparison
-- Multi-Level Filtering
-- Comparative Analytics
+#### Key Insights
+- Germany generated qualifying records under the selected conditions.
+- Aerospace Engineer and Art Teacher roles appeared in the filtered dataset.
+- No matching records were found for India after applying all filtering conditions.
+- The analysis demonstrates how strict business rules can significantly reduce available records within a dataset.
 
 ---
 
-## Task 5 — Top Hiring Companies
+### 5. Top Companies Hiring
 
-### Objective
+**Visualization:** Tree Map
 
-Identify top organizations through a hierarchical company visualization.
-
-### Filters Applied
-
-- Data Scientist positions
-- B.Tech qualification
-- Female preference
-- LinkedIn job portal
+#### Filters Applied
+- Role = Data Engineer
+- Job Title = Data Scientist
+- Non-Asian Countries
+- Countries not starting with "C"
 - Company Size ≥ 10,000
-- Additional date and location conditions
+- Qualification = B.Tech
+- Preference = Female
+- Job Portal = LinkedIn
+- Posting Date between 01/01/2023 and 06/01/2023
+- Visible between 3 PM and 5 PM IST
 
-### Visualization
+#### Data Constraint
+The task required the **Contact Person's name to end with a vowel**. This condition was implemented and added to the dashboard filter panel. However, selecting this filter results in no matching records within the dataset and the treemap becomes blank. Users can apply the filter from the dashboard panel to validate the requirement, but it is not enabled in the default view to preserve the visualization.
 
-![Task 5](images/task5.png)
-
-### Insights
-
-- The filtering conditions are extremely restrictive.
-- Very few records satisfy all requirements simultaneously.
-- Demonstrates implementation of advanced business logic through calculated fields and filters.
-- Highlights the importance of balancing business rules with data availability.
-
-### Tableau Concepts Used
-
-- Tree Map
-- Date Functions
-- String Functions
-- Advanced Filtering
+#### Key Insights
+- DISH Network recorded the highest number of qualifying postings.
+- Gilead Sciences, Halliburton, and Iluka Resources also appeared in the results.
+- Only four companies satisfied the final filtering criteria.
+- Hiring activity was concentrated among a small number of large organizations.
+- The strict filtering conditions significantly reduced the available company pool.
 
 ---
 
-## Task 6 — Qualification Drilldown Map
+### 6. Qualification Drilldown Map
 
-### Objective
+**Visualization:** Interactive Drilldown Map
 
-Visualize job opportunities geographically across African countries using drilldown functionality.
-
-### Filters Applied
-
-- African countries only
-- B.Tech, M.Tech, and PhD qualifications
-- Full-Time positions
+#### Filters Applied
+- African Countries
+- Qualification = B.Tech, M.Tech, or PhD
+- Work Type = Full-Time
+- Job Title starts with "D"
+- Preference = Male
+- Company Size > 80,000
 - Salary > $20,000
-- Indeed job portal
-- Geographic coordinates enabled
+- Contact Person name starts with "A"
+- Visible between 3 PM and 6 PM IST
 
-### Visualization
+#### Data Constraint
+The task required the **Job Portal to be Indeed**. This condition was implemented and included in the dashboard filter panel. However, applying the Indeed filter together with all other task conditions results in no matching records being returned. Users can select the filter from the dashboard panel to verify the requirement, but it is not enabled in the default view so that the map visualization remains visible.
 
-![Task 6](images/task6.png)
-
-### Insights
-
-- Geographic filtering enables targeted regional analysis.
-- Drilldown functionality allows users to explore exact job locations.
-- Multiple qualification categories can be analyzed simultaneously.
-- Strict filtering criteria result in highly specific opportunities.
-
-### Tableau Concepts Used
-
-- Geographic Mapping
-- Drilldown Actions
-- Spatial Analytics
-- Interactive Exploration
+#### Key Insights
+- Qualifying job postings were distributed across multiple African regions.
+- Opportunities appeared across West, East, Central, and Southern Africa.
+- Large organizations showed demand for highly qualified professionals.
+- The geographic distribution suggests demand is spread across multiple African markets rather than concentrated in a single location.
+- Drilldown functionality enables users to move from a country-level view to exact job locations for deeper analysis.
 
 ---
 
-# Technical Skills Demonstrated
+## Overall Findings
 
-### Tableau Skills
-
-- Dashboard Design
-- Interactive Dashboard Development
-- Data Visualization
-- Storytelling with Data
-- Business Intelligence Reporting
-
-### Data Analysis Skills
-
-- Calculated Fields
-- Parameters
-- Conditional Logic
-- Date Functions
-- String Functions
-- Statistical Analysis
-
-### Advanced Analytics
-
-- Geographic Analysis
-- Drilldown Functionality
-- Comparative Analysis
-- Trend Analysis
-- Salary Analytics
-- Company Analytics
+- Internship opportunities demonstrated a balanced distribution of hiring preferences.
+- Large multinational organizations dominated experienced Mechanical Engineer recruitment.
+- Internship salaries remained relatively standardized with limited variation.
+- Germany generated qualifying opportunities under the specified comparison criteria, while no matching records were available for India.
+- Data Scientist hiring activity was concentrated among a small number of large organizations.
+- Demand for highly qualified professionals was distributed across several African regions.
+- Interactive filters and drilldown functionality enhanced data exploration and user engagement.
+- Dataset limitations were identified and documented transparently through optional validation filters available within the dashboard.
 
 ---
 
-# Business Value
+## Conclusion
 
-This dashboard helps stakeholders:
-
-- Understand hiring trends across industries.
-- Evaluate salary distributions and compensation patterns.
-- Compare opportunities across countries and regions.
-- Analyze qualification requirements.
-- Identify major hiring organizations.
-- Explore geographic employment trends.
-- Support data-driven decision-making.
-
----
-
-# Project Outcome
-
-Successfully extended the original training dashboard by implementing six advanced analytical tasks while maintaining a unified Tableau workbook structure.
-
-The project demonstrates the ability to:
-
-- Convert business requirements into analytical dashboards.
-- Apply complex filtering and conditional logic.
-- Design interactive and user-friendly visualizations.
-- Perform geographic and statistical analysis.
-- Extract actionable insights from large datasets.
-- Deliver professional Business Intelligence solutions using Tableau.
-
----
-
-# Repository Structure
-
-```text
-job_analytics/
-│
-├── data_cleaning/
-│   └── data_clean.ipynb
-│
-├── images/
-│   ├── dashboard.png
-│   ├── task1.png
-│   ├── task2.png
-│   ├── task3.png
-│   ├── task4.png
-│   ├── task5.jpeg
-│   └── task6.png
-│
-├── website/
-│
-└── README.md
-```
-
----
-
-## Author
-
-### Sidhi Deshmukh
-
-**Data Analytics Intern**
-
-#### Skills Demonstrated
-
-- Tableau
-- Data Visualization
-- Dashboard Development
-- Business Intelligence
-- Data Analysis
-- Interactive Reporting
-
----
-
-### Internship Submission
-
-This project was completed as part of the **ElevanceSkills Data Analytics Internship Program** and showcases practical dashboard development, advanced Tableau analytics, and business intelligence reporting using real-world job market data.
+This project demonstrates the practical application of Tableau for interactive dashboard development, business intelligence reporting, geographic analysis, filtering techniques, and data-driven decision-making. The implementation successfully completed all six internship tasks while documenting dataset constraints and providing meaningful analytical insights through interactive visualizations.
